@@ -1,102 +1,99 @@
-/* Reset some default styles */
-body, h1, h2, ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Styles for the entire page */
-  body {
-    background-image: url("list.jpg"); /* Add your background image here */
-    background-size: cover;
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0, 0, 0, 0.2); /* Increase the alpha value for transparency */
-  }
-  
-  /* Styles for the header */
-  header {
-    background-color: rgba(52, 152, 219, 0.8);
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  header h1 {
-    font-size: 50px;
-    margin: 5;
-  }
-  
-  /* Styles for the "Add Task" section */
-  .add-task {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
-  .add-task input[type="text"],
-  .add-task input[type="date"],
-  .add-task button {
-    padding: 15px;
-    font-size: 20px;
-    border: none;
-    border-radius: 10px;
-    margin: 10px;
-  }
-  
-  .add-task input[type="text"] {
-    width: 200px;
-  }
-  
-  .add-task button {
-    background-color: #3498db;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-  }
-  
-  .add-task button:hover {
-    background-color: #2980b9;
-    transform: scale(1.05);
-  }
-  
-  /* Styles for the task list */
-  .task-list {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .task-list h2 {
-    background-color: burlywood;
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-    display: inline-block;
-  }
-  
-  ul#tasks {
-    list-style: none;
-    padding: 0;
-  }
-  
-  li {
-    background-color: rgba(234, 231, 231, 0.95); 
-    color: #333;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-  }
-  
-  .completed {
-    text-decoration: line-through;
-    opacity: 0.5;
-  }
-  
+body,
+h1,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("list.jpg");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+header {
+  background-color: rgba(52, 152, 219, 0.8);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+header h1 {
+  font-size: 50px;
+  margin: 5;
+}
+
+.add-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.add-task input[type="text"],
+.add-task input[type="date"],
+.add-task button {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.add-task input[type="text"] {
+  width: 200px;
+}
+
+.add-task button {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.add-task button:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+}
+
+.task-list {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.task-list h2 {
+  background-color: burlywood;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  display: inline-block;
+}
+
+ul#tasks {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(234, 231, 231, 0.95);
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
